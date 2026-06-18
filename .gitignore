@@ -1,0 +1,18 @@
+# ignore the data folders completely
+raw/
+incoming_data/
+
+# ignore any generated csv files in the main directory
+*.csv
+
+# ignore python cache files
+__pycache__/
+*.pyc
+
+# ignore visual studio code settings
+.vscode/
+
+# ignore local virtual environments if you use them
+venv/
+.venv/
+env/
